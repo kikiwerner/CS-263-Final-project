@@ -1,3 +1,4 @@
+<<<<<<< HEAD
 function toggleTab(tabName) {
     var tabContent = document.getElementById(tabName + "Content");
     var allTabContents = document.getElementsByClassName("tabcontent");
@@ -15,6 +16,19 @@ function toggleTab(tabName) {
     } else {
         tabContent.style.display = "block"; // If hidden, show it
     }
+=======
+function openPage(pageName) {
+    var i, tabcontent, tablinks;
+    tabcontent = document.getElementsByClassName("tabcontent");
+    for (i = 0; i < tabcontent.length; i++) {
+        tabcontent[i].style.display = "none";
+    }
+    tablinks = document.getElementsByClassName("tablinks");
+    for (i = 0; i < tablinks.length; i++) {
+        tablinks[i].classList.remove("active");
+    }
+    document.getElementById(pageName).style.display = "block";
+>>>>>>> d09d225682e82cc71bc01b8c8b0528f7baccaaf1
 }
 
 document.addEventListener('DOMContentLoaded', function() {
@@ -48,4 +62,8 @@ document.addEventListener('DOMContentLoaded', function() {
             console.error('Error fetching news:', error);
             document.getElementById('News').innerHTML = `<p>Failed to load news articles. Error: ${error.message}</p>`;
         });
+<<<<<<< HEAD
 });
+=======
+});
+>>>>>>> d09d225682e82cc71bc01b8c8b0528f7baccaaf1

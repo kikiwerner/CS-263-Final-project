@@ -4,20 +4,29 @@
   padding: 0;
   font-family: Arial, sans-serif;
 }
+<<<<<<< HEAD
 
 body {
   background-color: #00458b;
+=======
+body {
+  background-color: #f4f4f9;
+>>>>>>> d09d225682e82cc71bc01b8c8b0528f7baccaaf1
   color: #333;
   font-size: 16px;
   line-height: 1.6;
 }
+<<<<<<< HEAD
 
+=======
+>>>>>>> d09d225682e82cc71bc01b8c8b0528f7baccaaf1
 header {
   background-color: #00458b;
   color: white;
   padding: 20px 10%;
   text-align: center;
 }
+<<<<<<< HEAD
 
 .container {
   display: flex;
@@ -73,11 +82,16 @@ input[type="search"]:focus {
   outline: none;
 }
 
+=======
+>>>>>>> d09d225682e82cc71bc01b8c8b0528f7baccaaf1
 .tab {
   overflow: hidden;
   background-color: #333;
 }
+<<<<<<< HEAD
 
+=======
+>>>>>>> d09d225682e82cc71bc01b8c8b0528f7baccaaf1
 .tab button {
   background-color: inherit;
   float: left;
@@ -89,6 +103,7 @@ input[type="search"]:focus {
   color: white;
   width: 20%;
 }
+<<<<<<< HEAD
 
 .tab button:hover {
   background-color: #007bff;
@@ -98,10 +113,19 @@ input[type="search"]:focus {
   background-color: #0056b3;
 }
 
+=======
+.tab button:hover {
+  background-color: #007bff;
+}
+.tab button.active {
+  background-color: #0056b3;
+}
+>>>>>>> d09d225682e82cc71bc01b8c8b0528f7baccaaf1
 .tabcontent {
   display: none;
   padding: 20px 10%;
   border-top: none;
+<<<<<<< HEAD
   background-color: white;
   align-content: center;
 }
@@ -194,3 +218,37 @@ footer {
   margin-bottom: 20px;
 }
 
+=======
+}
+.fg--search {
+  position: relative;
+  width: 300px;
+  margin-top: 8px;
+  display: inline-block;
+}
+.fg--search input {
+  width: 100%;
+  padding: 10px;
+  border: 1px solid #ccc;
+}
+.fg--search button {
+  background: #00458b;
+  color: white;
+  border: none;
+  cursor: pointer;
+  position: absolute;
+  right: 0;
+  top: 0;
+  bottom: 0;
+  width: 40px;
+}
+footer {
+  background-color: #333;
+  color: white;
+  text-align: center;
+  padding: 10px;
+  position: fixed;
+  bottom: 0;
+  width: 100%;
+}
+>>>>>>> d09d225682e82cc71bc01b8c8b0528f7baccaaf1
