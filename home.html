@@ -1,25 +1,53 @@
 <!DOCTYPE html>
+<html lang="en">
 <head>
     <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial scale=1.0">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <meta name="keywords" content="internet, human rights, accessibility, rights, ethics">
     <meta name="author" content="Henrique Werner, Prasiddha Shrestha">
     <link rel="stylesheet" type="text/css" href="styles.css">
     <title>Internet Accessibility as a Human Right</title>
 </head>
 <body>
-    <h1>Internet Accesibility as a Human Right</h1>
-    <div class="form-group fg--search">
-        <input class="input" type="text" placeholder="Search...">
-        <button type="submit">
-            <i class="fa fa-search"></i>
-        </button>
+    <header>
+        <h1>Internet Accessibility as a Human Right</h1>
+        <div class="form-group fg--search">
+            <input class="input" type="text" id="searchInput" placeholder="Search...">
+            <button type="submit">
+                <i class="fa fa-search"></i>
+            </button>
+        </div>
+    </header>
+    <nav class="tab">
+        <button class="tablinks" onclick="openPage('Home')">Home</button>
+        <button class="tablinks" onclick="openPage('Resources')">Resources</button>
+        <button class="tablinks" onclick="openPage('Support')">Support</button>
+        <button class="tablinks" onclick="openPage('Statistics')">Statistics & Data</button>
+        <button class="tablinks" onclick="openPage('News')">Recent News</button>
+    </nav>
+    <div id="Home" class="tabcontent">
+        <h2>Welcome to Our Website</h2>
+        <p>This site is dedicated to promoting the recognition of internet access as a fundamental human right.</p>
     </div>
-    <div class="tab">
-        <button class="tablinks" onclick="openPage(event, Home)">Home</button>
-        <button class="tablinks" onclick="openPage(event, Resources)">Resources</button>
-        <button class="tablinks" onclick="openPage(event, Support)">Support</button>
-        <button class="tablinks" onclick="openPage(event, Statistics)">Statistics & Data</button>
-        <button class="tablinks" onclick="openPage(event, News)">Recent News</button>
+    <div id="Resources" class="tabcontent">
+        <h2>Resources</h2>
+        <p>Here you will find links to various legal and educational resources to understand internet rights.</p>
     </div>
+    <div id="Support" class="tabcontent">
+        <h2>Support</h2>
+        <p>Learn how you can help support the cause for internet accessibility for everyone.</p>
+    </div>
+    <div id="Statistics" class="tabcontent">
+        <h2>Statistics & Data</h2>
+        <p>View recent statistics on internet access globally, highlighting disparities and areas of improvement.</p>
+    </div>
+    <div id="News" class="tabcontent">
+        <h2>Latest News</h2>
+        <!-- News items will be loaded here dynamically by the JavaScript below -->
+    </div>
+    <footer>
+        <p>Copyright © 2023 by Henrique Werner and Prasiddha Shrestha</p>
+    </footer>
+    <script src="script.js"></script>
 </body>
+</html>
