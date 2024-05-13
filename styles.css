@@ -235,3 +235,68 @@ footer {
 .content-container .content-section .right-align {
   float: right;
 }
+
+#content-section2 {
+  margin-top: 20px;
+  text-align: center;
+}
+
+.custom-button {
+  display: inline-block;
+  padding: 10px 20px;
+  background-color: black;
+  color: white;
+  text-decoration: none;
+  border-radius: 5px;
+  font-size: 16px;
+  cursor: pointer;
+  transition: background-color 0.3s ease;
+  opacity: 0.7;
+}
+
+.custom-button:hover {
+  opacity: 0.5;
+}
+
+.images {
+  display: flex;
+  flex-direction: column;
+}
+
+.image-wrapper {
+  margin-bottom: 20px;
+  text-align: center;
+}
+
+.image-wrapper img {
+  width: 70%; /* Set desired width */
+  height: auto; /* Automatically adjust height to maintain aspect ratio */
+  display: block; /* Ensure image does not have extra space below it */
+  margin: 0 auto; /* Center the image horizontally */
+}
+
+.image-title {
+  margin-top: 5px;
+  font-size: 14px;
+  text-align: center;
+}
+
+table {
+  width: 100%;
+  border-collapse: collapse;
+}
+th, td {
+  padding: 10px;
+  border-bottom: 1px solid #ddd;
+}
+th {
+  background-color: #f2f2f2;
+}
+td a {
+  text-decoration: none;
+  color: #0066cc;
+}
+
+.subtitle {
+  text-align: center;
+}
