@@ -1,0 +1,24 @@
+Sources used on the project:
+
+Images/Graphs:
+
+https://ourworldindata.org/internet
+https://datareportal.com/reports/digital-2024-deep-dive-the-state-of-internet-adoption
+https://twitter.com/ITUDevelopment/status/1729168499975561277
+https://twitter.com/ITU/status/1609906983892574210
+https://pirg.org/articles/the-costs-of-the-digital-divide-are-higher-than-ever-repair-can-help/
+https://www.statista.com/chart/2991/internet-access-a-human-right/
+
+Inspiration:
+
+https://www.tesla.com/
+https://www.apple.com/
+https://www.internetforall.gov/
+
+Resources used in coding:
+
+Slides from class (by Barbara Johnson)
+https://www.geeksforgeeks.org/
+https://stackoverflow.com/
+https://www.youtube.com/watch?v=fI9VM5zzpu8
+https://www.youtube.com/watch?v=-C-qR1gziNc
