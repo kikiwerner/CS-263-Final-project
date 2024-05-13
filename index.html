@@ -12,9 +12,9 @@
     <header>
         <h1>Internet Accessibility as a Human Right</h1>
         <div class="container">
-            <form>
-                <input type="search" placeholder="Search...">
-                <button type="submit">Search</button>
+            <form onsubmit="event.preventDefault(); filterNews();">
+                <input id="searchInput" type="text" placeholder="Search...">
+                <button type="submit"></button>
             </form>
         </div>
     </header>
